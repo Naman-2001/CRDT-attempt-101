@@ -60,9 +60,11 @@
 // export default App;
 import React from "react";
 import Editor from "./editor";
+import Todo from "./todo";
 
 const App = () => {
-  return <Editor />;
+  // return <Editor />;
+  return <Todo />;
 };
 
 export default App;
